@@ -1,0 +1,122 @@
+.footerContainer {
+  background-color: #d3d3d3;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.brandDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.brandName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color:  darkred;;
+}
+
+.contactInfo {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.newsletter {
+  max-width: 300px;
+}
+
+.newsletterTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscribeForm {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.subscribeForm input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.subscribeForm button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribeForm button:hover {
+  background-color: darkred;
+}
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footerContainer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contactInfo,
+    .newsletter {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .subscribeForm {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .subscribeForm input,
+    .subscribeForm button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footerContainer {
+      padding: 20px;
+    }
+  
+    .brandName {
+      font-size: 1.2rem;
+    }
+  
+    .brandEmail {
+      font-size: 0.9rem;
+    }
+  
+    .newsletterTitle {
+      font-size: 1rem;
+    }
+  
+    .logo {
+      width: 40px;
+    }
+  }
+  

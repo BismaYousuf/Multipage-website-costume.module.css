@@ -1,0 +1,88 @@
+.reviewContainer {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profileImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.customerName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -20%;
+  margin-left: 15%;
+}
+
+.customerRole {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+
+.reviewText {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.6;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+/* Responsive Styles for Tablets and Mobile */
+@media (max-width: 768px) {
+  .profileImage {
+    width: 100px;
+    height: 100px;
+   
+  }
+
+  .customerName {
+    font-size: 1.3rem;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .customerRole {
+    font-size: 1rem;
+    margin-left: -5px;
+  }
+
+  .reviewText {
+    font-size: 0.9rem;
+    margin-left: 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  .profileImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .customerName {
+    font-size: 1.1rem;
+  }
+
+  .customerRole {
+    font-size: 0.9rem;
+  }
+
+  .reviewText {
+    font-size: 0.8rem;
+  }
+
+  /* Adjust the review container padding for smaller screens */
+  .reviewContainer {
+    padding: 30px 10px;
+  }
+}

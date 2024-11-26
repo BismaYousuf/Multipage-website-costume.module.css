@@ -1,0 +1,77 @@
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkred; 
+    margin-bottom: 1rem;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 1rem;
+    color: darkred; 
+    margin-bottom: 2rem;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styles */
+  .label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1e293b; 
+  }
+  
+  /* Input styles */
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e8f0; 
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Textarea styles */
+  .textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0; 
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical; 
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: darkred; 
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #e43950; 
+    color: #f9fafb; 
+  }
+  

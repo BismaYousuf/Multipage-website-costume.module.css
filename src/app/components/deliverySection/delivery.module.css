@@ -1,0 +1,78 @@
+
+.secDiv {
+    width: 535px;
+    height: 120px;
+    font-size: 49.44px;
+    font-weight: 500;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.span {
+    color: rgb(143, 0, 0);
+}
+
+.cardsDiv {
+    width: 100%;
+    height: 230px;
+}
+
+.card1 {
+    width: 286px;
+    height: 210px;
+    display: flex;
+    gap: 70px;
+    margin-left: 170px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+/* Tablet screens (768px and below) */
+@media (max-width: 768px) {
+    .secDiv {
+        width: 100%;
+        height: auto;
+        font-size: 36px; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .cardsDiv {
+        height: auto;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+    }
+}
+
+/* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+    .secDiv {
+        font-size: 28px; 
+        margin-top: 10px;
+      
+    }
+
+    .card1 {
+        width: 90%;
+        height: auto;
+        flex-direction: column; 
+        margin-left: 70px;
+        gap: 10px;
+    }
+
+    .cardsDiv {
+        height: auto;
+        padding: 10px;
+    }
+}
