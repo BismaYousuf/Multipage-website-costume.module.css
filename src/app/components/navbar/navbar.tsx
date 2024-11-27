@@ -1,8 +1,10 @@
 "use client"
 import React, { useState } from "react";
-import styles from "./Navbar.module.css";
+import styles from './Navbar.module.css';
 import Image from "next/image";
 import Link from "next/link";
+
+
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
